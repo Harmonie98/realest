@@ -1,0 +1,167 @@
+/** Global **/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+body a {
+	text-decoration: none;
+	color: black;
+	transition: 0.5s;
+}
+
+a:hover {
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+.secguide {
+	margin: 0 50px 100px 50px;
+}
+
+/** Header **/
+
+.container {
+	width: 100%;
+	overflow: hidden;
+}
+
+#location {
+	float: left;
+	margin-left: 50px;
+	margin-top: 60px;
+}
+
+#logo {
+	height: 100px;
+	width: 100px;
+	margin-left: 25%;
+}
+
+select {
+	border: none;
+	padding-left: 10px;
+}
+
+header {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 50px;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+header ul {
+	float: right;
+	margin-top: 60px;
+}
+
+header li {
+	display: inline;
+	margin-right: 50px;
+}
+
+header img {
+	height: 30px;
+}
+
+header li a {
+	font-family: arial;
+	font-size: 18px;
+	color: black;
+}
+
+header li a:hover {
+	font-weight: bold;
+}
+
+#wwd {
+	width: 92.5%;
+	height: 200px;
+	margin: 0 50px 50px 50px;
+	border: 1px solid black;
+	background-color: #f2f2f2;
+}
+
+.title {
+	font-family: arial;
+	font-size: 22px;
+	margin: 100px 0 30px 0;
+	font-weight: bold;
+}
+
+#grid1 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-column-gap: 1em;
+	grid-template-rows: 350px;
+}
+
+#grid1 > div {
+	border: 1px solid black;
+	background-color: #f2f2f2;
+}
+
+.grid2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-column-gap: 1em;
+	grid-template-rows: 300px;
+}
+
+.grid2 > div {
+	border: 1px solid black;
+	background-color: #f2f2f2;
+}
+
+#bo {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 300px;
+	grid-column-gap: 2em;
+}
+
+#bo > div {
+	border: 1px solid black;
+	background-color: #f2f2f2;
+}
+
+#app {
+	width: 92.5%;
+	height: 400px;
+	margin: 0 50px 50px 50px;
+	border: 1px solid black;
+	background-color: #f2f2f2;
+}
+
+.three  {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 5em;
+	grid-template-rows: 400px;
+}
+
+.three > div {
+	border: 1px solid black;
+	background-color: #f2f2f2;
+}
+
+footer {
+	border-top: 1px solid #000000;
+}
+
+footer p {
+	display: inline;
+	padding: 10px 250px 10px 0;
+}
+
+footer p:last-child {
+	padding: 0;
+}
